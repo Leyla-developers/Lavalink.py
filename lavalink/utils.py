@@ -82,7 +82,8 @@ def decode_track(track, decode_errors='ignore'):
             'identifier': identifier,
             'isStream': is_stream,
             'uri': uri,
-            'isSeekable': not is_stream
+            'isSeekable': not is_stream,
+            'thumbnail': f'https://i.ytimg.com/vi/{identifier}/maxresdefault.jpg'
         }
     }
 
